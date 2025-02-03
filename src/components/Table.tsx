@@ -21,7 +21,7 @@ const Table: React.FC = () => {
               rowIndex={rowIndex}
               hoveredCellValue={hoveredCellValue}
               onCellHovered={(value) => setHoveredCellValue(value)}
-            />
+            /> 
           ))}
           <tr>
             {/* For each column shoul be 50% of summ */}
